@@ -52,7 +52,7 @@ public class Account {
     }
 
     public void getCheckingWithdrawInput() {
-        System.out.println("Checking Account balance: " + moneyFormat.format(checkingBalance));
+        System.out.println("Checking Account bal: " + moneyFormat.format(checkingBalance));
         System.out.print("Amount you want to withdraw from Checking Account: ");
         double amount = input.nextDouble();
 
